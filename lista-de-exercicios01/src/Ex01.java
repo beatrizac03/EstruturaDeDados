@@ -19,10 +19,6 @@ public class Ex01 {
             vetor[i] = scn.nextInt();
         }
 
-        for(int i = 0; i < vetor.length; i++){
-            System.out.print(vetor[i] + ", ");
-        }
-
         for(int i = 0; i < vetor.length; i++) {
             if(vetor[i] % 2 == 0 ) {
                 pares[i] = vetor[i];
@@ -34,14 +30,15 @@ public class Ex01 {
         System.out.println("Números pares: ");
         for(int i = 0; i < vetor.length; i++) {
             if(vetor[i] % 2 == 0) {
-                System.out.print(pares[i] + ", ");
+                System.out.print(pares[i] + "  ");
             }
         }
+        System.out.println("");
 
         System.out.println("Números ímpares: ");
         for(int i = 0; i < vetor.length; i++) {
             if(vetor[i] % 2 != 0) {
-                System.out.print(impares[i] + ", ");
+                System.out.print(impares[i] + "  ");
             }
         }
 
